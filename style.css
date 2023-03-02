@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300;400;500;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #22212C;
+    font-family: 'Merriweather Sans', sans-serif;
+    color: #837E9F;
+}
+main{
+    display: flex;
+    flex-direction: row;
+}
+
+section.lateral{
+    display: flex;
+    width: 400px;
+    margin: 40px;
+    flex-direction: column;
+    
+}
+div{
+    border-radius: 20px;
+    padding: 30px;
+    background-color: #302F3D;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.17);
+}
+
+section.lateral div{
+    margin-bottom: 40px;
+    width: 390px;
+}
+/* perfil */
+.perfil{
+    height: 300px;
+}
+.perfil img{
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    width: 130px;
+    height: 100px;
+    border-radius: 100%;
+}
+.perfil h1{
+    margin-top: 30px;
+    text-align: center;
+}
+.perfil p{
+    margin: 10px;
+
+    font-size: 15px;
+    text-align: center;
+    font-weight: 300;
+}
+/* redes sociais */
+
+.redes-sociais{
+    height: 350px;
+}
+.redes-sociais li{
+    display: flex;
+    flex-direction: row;
+    font-weight: 400;
+    font-size: 15px;
+    color: #837e9fd0;
+}
+.redes-sociais img{
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+/* tecnologias */
+
+.tecnologias h2, .experiencias h2{
+    margin-bottom: 25px;
+}
+
+.tecnologias button{
+    text-transform: uppercase;
+    background-color: #CB92B1;
+    color: black;
+    font-size: 11px;
+    padding: 8px;
+    margin-right: 8px;
+    margin-bottom: 15px;
+    border: none;
+    font-weight: 700;
+    border-radius: 50px;
+    width: 100px;
+}
+/* Experiencias */
+.experiencias ul{
+    margin-left: 20px;
+ }
+
+.experiencias li{
+    margin-bottom: 20px;
+}
+.experiencias li:last-child{
+    margin-bottom: 0px;
+} 
+
+.experiencias p {
+    font-size: 13px;
+    font-weight: 400;
+    color: #837e9fd0;
+}
+
+/* Section Central */
+
+section.centro{
+    margin-top: 40px;
+    width: 100%;
+}
+
+/* Projeto */
+.projetos, .recent-post, .descricao{
+    padding-top: 25px;
+    width: 95%;
+    height: 80px;
+}
+.projetos p{
+    margin-top: 5px;
+    float: right;
+}
+.projetos h2, .recent-post h2{
+    font-size: 25px;
+    float: left;
+}
+
+/* Pastas */
+
+.pastas{
+
+    margin-top: 40px;
+    width: 100%;
+    height: 180px;   
+}
+.pasta-flex{
+    width: 95%;
+    display: flex;
+    flex-direction: row;
+}
+.margin{
+    margin-right: 70px;
+}
+
+#img-first-div1, #img-first-div2{
+    width: 25px;
+    margin-right: 20px;
+}
+
+.pastas h2{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+aside p{
+    float: left;
+    margin-top: 20px;
+}
+aside img{
+    width: 15px;
+    margin-right: 5px;
+}
+#cic-div1, #cic-div2{
+    width: 9px;
+}
+aside p:nth-child(2){
+    margin-left: 10%;
+}
+aside p:last-child{
+    float: right;
+    margin-right: 13%;
+}
+/* Recent Post */
+
+.recent-post, .descricao{
+ margin-top: 40px;
+}
+.recent-post h2{
+    font-size: 25px;
+}
+/* Descrição */
+
+.descricao{
+    height: 230px;
+}
+.descricao img{
+    margin-top: 20px;
+    width: 190px;
+    height: 150px;
+    border-radius: 100%;
+    float: left;
+    margin-right: 40px;
+}
+.descricao h2{
+    font-size: 20px;
+    margin-top:10px;
+    margin-bottom: 5px;   
+}
+
+.descricao h3{
+    margin-top: 3%;
+    font-size: 18px;
+    font-weight: 400;
+    color: #837e9fd0;
+}
+div.descricao p:last-child {
+    margin-top: 10px;
+    word-spacing: 35px;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+/* Footer */
+
+footer {
+    text-align: center;
+    margin-bottom: 15px;
+}
